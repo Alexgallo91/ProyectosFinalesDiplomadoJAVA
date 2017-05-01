@@ -1,0 +1,316 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+     background: url("..\imagenes\city1.jpg");
+	-webkit-background-size: cover;
+	 background-size: cover; 
+}
+
+#contenido
+{
+	width: 93%;
+	margin: 0px auto;
+}
+
+#cabecera
+{
+	background-color: #05405B;
+	height: 100px;
+	width: 100%;
+	border-bottom: 4px solid #FFD507;
+}
+
+#principal
+{
+	height: 700px;
+	width: 100%;
+	background-color: rgba(74, 112, 181, .5);
+	display: block;
+	padding-top:30px;
+}
+
+#pie
+{
+	background-color: #1B243C;
+	height: 50px;
+	width: 100%;
+}
+
+#cabecera h1
+{
+	font-size: 50px;
+	letter-spacing: 10px;
+	color: white;
+	font-family: "Sans serif";
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#menu
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #2477b7;
+	height: 50px;
+	width: 100%;
+}
+
+#menu li
+{
+	display: inline;
+}
+
+#menu a
+{
+	display: inline-block;
+	padding: 12px 30px;
+	color: white;
+	font-size: 23px;
+}
+
+#menu li a:hover
+{
+	color: #FFFC00;
+	background-color: #0B1343;
+}
+
+#menu li a:link
+{
+	text-decoration: none;
+}
+
+footer
+{
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+}
+
+/*animacion botones del menu*/
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #FFFC00;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+#mensaje
+{
+	color: white;
+	background: rgba(198, 6, 6, 0.6);
+	margin: 0px auto;
+	width: 40%;
+}
+
+#mensaje figure
+{
+	padding-top: 30px;
+}
+
+
+#principal #mensaje h2
+{
+	background-color: rgba(198,6,6,0.4);
+	text-align: center;
+}
+
+
+.button
+{
+	background: #103B46;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px auto;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 10px;
+	margin-top: 10px;
+
+}
+
+.button:hover
+{
+	color: #FFFFFF;
+	background-color: #0F5BB1;
+}
+
+.button:link
+{
+	text-decoration: none;
+	font-size: 30px;
+}
+
+
+#regresar_button
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centrar
+{
+	margin: 0px auto;
+}
+
+#titulo
+{
+	background-color: #3C39B0;
+	margin: 0px auto;
+	text-align: center;
+	width: 50%;
+	padding: 30px;
+	color: white;
+}
+
+#titulo h1
+{
+	font-size: 24px;
+}
+
+#titulo #mensaje2
+{
+	background-color: #28086F;
+	color: white;
+}
+
+#principal div h1
+{
+	text-align:center;
+	font-size: 24px;
+	color: white;
+}
+
+.menB
+{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	background-color: black;
+	width: 70%;
+}
+
+.box
+{
+	font-size: 20px;
+	padding: 10px;
+}
+
+.pad
+{
+	margin-top: 40px;
+}
+
+.pad label
+{
+	color: white;
+	font-size: 26px;
+}
+
+.pad input[type="submit"]
+{
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.botonEnviar
+{
+	font-size: 34px;
+}
+
+
+
+.Finalizar input[type=submit]
+{
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.botonGrande
+{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.colorBlanco
+{
+	color: white;
+	background-color: #150856;
+	width: 70%;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.titulo
+{
+	background-color: #131D59;
+	padding: 12px;
+	width: 60%;
+	font-size: 29px;
+	color: white;
+	margin:0px auto;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+.form
+{
+	background-color:rgba(14,118,184,0.7);
+	width: 20%;
+	margin: 0 auto;
+	border-radius: 30px;
+	padding: 0 100px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.form input[type="text"], input[type="email"]
+{
+	height: 20px;
+	width: 300px;
+	margin-left: -27px;
+}
+
+.tituloForm
+{
+	font-weight: bold;
+}
