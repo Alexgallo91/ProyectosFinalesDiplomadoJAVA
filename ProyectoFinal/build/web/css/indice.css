@@ -1,0 +1,32 @@
+ul
+{
+	background-color: rgba(10,58,111,.8);
+	list-style: none;
+}
+
+a:link
+{
+	text-decoration: none;
+}
+
+ul li a
+{
+	color: white;
+}
+
+ul li a:hover
+{
+	color: #2DF70C;
+}
+
+ul
+{
+	width: 30%;
+	height: 300px;
+	margin: 0 auto;
+	padding-right: 60px;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 29px;
+	padding-top: 30px;
+}
